@@ -1,8 +1,6 @@
-<div style="text-align:center">
-<img src="http://gmarciani.com/media/logo/tex-logo.png" width="100">
-<h1>LateX</h1>
-<p>The Official UTV Computer Science LateX templates.</p>
-</div>
+# Latex
+
+*The Official UTV Computer Science LateX templates*
 
 
 This is the collection of official University of Rome Tor Vergata (UTV) Computer Science Latex templates.
