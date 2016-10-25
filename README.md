@@ -13,7 +13,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Giacomo Marciani, [gmarciani@ieee.org](mailto:gmarciani@ieee.org)
 
 # REFERENCES
-*The Latex Project*, http://www.latex-project.org/help/documentation/
+*The Latex Project*, [latex-project.org](http://www.latex-project.org)
 
 ## Contributing
 If you want to contribute, please contact [main@acm.uniroma2.it](mailto:main@acm.uniroma2.it)
