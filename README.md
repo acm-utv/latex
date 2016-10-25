@@ -1,6 +1,9 @@
-# LateX
+<div style="text-align:center">
+<img src="http://gmarciani.com/media/logo/tex-logo.png" width="100">
+<h1>LateX</h1>
+<p>The Official UTV Computer Science LateX templates.</p>
+</div>
 
-*Collection of official UTV Computer Science Latex templates*
 
 This is the collection of official University of Rome Tor Vergata (UTV) Computer Science Latex templates.
 The repository is maintained by the UTV ACM Student Chapter.
@@ -10,13 +13,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 ## Authors
-Giacomo Marciani, [gmarciani@ieee.org](mailto:gmarciani@ieee.org)
+Giacomo Marciani, [gmarciani@acm.org](mailto:gmarciani@acm.org)
 
-# REFERENCES
+
+## References
 *The Latex Project*, [latex-project.org](http://www.latex-project.org)
+
 
 ## Contributing
 If you want to contribute, please contact [main@acm.uniroma2.it](mailto:main@acm.uniroma2.it)
+
 
 ## License
 The project is released under the [MIT License](https://opensource.org/licenses/MIT).
