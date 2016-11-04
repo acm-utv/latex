@@ -51,7 +51,7 @@ Giacomo Marciani, [gmarciani@acm.org](mailto:gmarciani@acm.org)
 
 
 ## Contributing
-If you want to contribute, please contact [main@acm.uniroma2.it](mailto:main@acm.uniroma2.it)
+If you want to contribute, please contact [acm@uniroma2.it](mailto:acm@uniroma2.it)
 
 
 ## License
