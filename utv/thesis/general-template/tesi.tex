@@ -1,0 +1,76 @@
+\documentclass{mntesi}
+
+\begin{document}
+
+% -- ----- ----- ----- ----- ----- ----- 
+% -- Configurazioni documento
+% -- ----- ----- ----- ----- ----- ----- 
+\selectlanguage{italian}
+\onehalfspacing
+% -- ----- ----- ----- ----- ----- ----- 
+
+% -- ----- ----- ----- ----- ----- ----- 
+% -- Frontespizio 
+% -- ----- ----- ----- ----- ----- ----- 
+\title{Titolo del lavoro di tesi} 
+\anno{2015/2016}
+\laurea{Magistrale}
+\relatore{nome e cognome}
+\autore{nome e cognome}
+\matricola{matricola}
+\pathlogo{immagini/ulogo.eps}
+\frontespizio
+% -- ----- ----- ----- ----- ----- ----- 
+
+% -- Dedica
+\input{dedica}
+
+% -- ----- ----- ----- ----- ----- ----- 
+% -- Abstract
+\frontmatter
+\chapter{Abstract}
+Abstract del lavoro di tesi. 
+
+% -- Indice
+\tableofcontents
+% -- ----- ----- ----- ----- ----- ----- 
+
+% -- ----- ----- ----- ----- ----- ----- 
+% -- Corpo della tesi
+\mainmatter
+
+% Capitoli inclusi da file esterni
+\input{demo-capitolo}
+\input{demo-elementi-package}
+
+\chapter{Link Utili}
+\begin{itemize}
+	\item Latex su WikiBook: \url{https://en.wikibooks.org/wiki/LaTeX}
+	
+	\item Scrivere la tua tesi di laurea con Latex (Mori): \url{http://www.guit.sssup.it/guitmeeting/2005/articoli/mori.pdf}
+\end{itemize}
+% -- ----- ----- ----- ----- ----- ----- 
+
+
+
+
+% -- ----- ----- ----- ----- ----- ----- 
+% -- Appendice
+\appendix
+\input{appendice}
+% -- ----- ----- ----- ----- ----- ----- 
+
+
+
+% -- ----- ----- ----- ----- ----- ----- 
+% -- Bibliografia
+\bibliography{tesi}{}
+\bibliographystyle{acm}
+% -- ----- ----- ----- ----- ----- ----- 
+
+% -- ----- ----- ----- ----- ----- ----- 
+% -- Ringraziamenti
+\input{ringraziamenti}
+% -- ----- ----- ----- ----- ----- ----- 
+
+\end{document}

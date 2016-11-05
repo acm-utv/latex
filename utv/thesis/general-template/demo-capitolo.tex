@@ -1,0 +1,72 @@
+
+\chapter{Titolo del capitolo}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis nulla eros, quis auctor nibh porta non. Fusce facilisis, magna eu eleifend consequat, massa ligula semper massa, sed hendrerit elit nulla ut nisi. Praesent eget laoreet eros. Suspendisse ultricies porta quam dignissim venenatis. Suspendisse et erat mauris. Morbi tellus elit, aliquet eget condimentum elementum, feugiat in urna. Etiam fermentum vulputate tempor. Donec nec leo ut augue auctor vestibulum. Quisque rhoncus felis quis massa pulvinar, a commodo felis tempor. Integer ornare ullamcorper auctor.
+
+Praesent scelerisque hendrerit quam in ornare. Aenean elementum quam lacinia eleifend lobortis. Pellentesque malesuada justo diam, ut faucibus libero scelerisque vel. Proin hendrerit velit vitae justo sodales aliquam. Fusce eget porttitor lorem, nec hendrerit est. Aliquam aliquet ut sapien in rutrum. Quisque purus metus, tincidunt a tincidunt sit amet, molestie vel justo. In cursus et quam id sodales. Aenean sed sem consectetur, sollicitudin felis a, tincidunt urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
+
+\section{Esempio elenchi}
+\subsubsection{Elenco non numerato}
+\begin{itemize}
+	\item primo elemento
+	\item secondo elemento
+	\item terzo elemento 
+\end{itemize}
+
+
+\subsubsection{Elenco numerato}
+\begin{enumerate}
+	\item primo elemento
+	\item secondo elemento
+	\item terzo elemento 
+\end{enumerate}
+
+\section{Esempio Immagini}
+Inserendo una figura ed associandone un'etichetta, posso inserirne un riferimento con 
+\begin{lstlisting}
+\ref{fig:immagine}
+\end{lstlisting}
+
+Ad esempio, riferimento alla Figura~\ref{fig:immagine}.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.9\textwidth]{immagini/example-of-application.eps}
+\caption{Didascalia dell'immagine}\label{fig:immagine}
+\end{figure}
+
+
+\section{Esempio Codice}
+Usando l'environment \texttt{lstlisting}
+
+\begin{lstlisting}[language=java]
+class HelloWorldApp {
+    public static void main(String[] args) {
+        System.out.println("Hello World!"); // Display the string.
+        for (int i = 0; i < 100; ++i) {
+            System.out.println(i);
+        }
+    }
+}
+\end{lstlisting}
+
+
+\section{Esempio Citazione Elemento Bibliografico}
+Per citare un articolo:
+\begin{itemize}
+\item devi recuperare il bibtex con le informazioni sull'articolo. Il bibtex contiene una chiave (modificabile) da usare per citare l'articolo. Un esempio di bibtex:
+\begin{lstlisting}
+@book{entry-key,
+  title={I1 ($\backslash$ LaTeX)---A Document},
+  author={Lamport, Leslie},
+  volume={410},
+  year={1985},
+  publisher={pub-AW}
+}
+\end{lstlisting}
+dove \texttt{entry-key} è la chiave.
+
+\item devi includere il bibtex all'interno del tuo file \texttt{.bib} (in questo caso è \texttt{tesi.bib});
+
+\item devi includere nel testo, dove vuoi che appaia la citazione,\\ \texttt{$\backslash$cite$\lbrace$entry-key$\rbrace$} per ottenere~\cite{entry-key}.
+
+\end{itemize}
